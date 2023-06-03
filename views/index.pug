@@ -1,0 +1,87 @@
+doctype html
+html
+    head  
+        style
+            include ../static/style.css
+    body
+        nav#navbar.top 
+            ul 
+                li
+                    a(href="/") Home 
+                li
+                    a(href="#about") About 
+                li
+                    a(href="#secthird") Social
+                li
+                    a(href="#secsecond") Services 
+                li
+                    a(href="#form") Contact us
+        section#secfirst 
+            h2 Dance To Good To Be True!
+            | Create Free Landing Pages That Make it Easy for People to Buy Your Products. Sign Up Now! Utilize Free Templates To Create Landing Pages Designed to Increase Conversions. Free Trial. Campaign Manager. A/B Testing & Surveys. Sign Up For Free.  Search for Creating Website Content at TravelSearchExpert. Attractive Results. Get More Results. Online Information. Search Now. Related Searches. Internet Information.
+            //- a.btn(href='#') Checked
+
+        section#secsecond 
+            h3 Our Services 
+            div.card
+                div#item1.cont
+                    img(src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF403JpNCVKNq-Kqk_Q8wfhQT88T4aUQ5GtP7PVlsl3Uc0E0-vZrUNC_AdLErgZNRgBv-MAPCmDw8&usqp=CAU&ec=48665698')
+                    p  Sign Up Now! Utilize Free Templates To Create Landing Pages Designed to Increase Conversions. Free Trial. Campaign Manager. A/B Testing & Surveys. Sign Up For Free.  Search for Creating Website 
+                    
+                div#item2.cont
+                    img(src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZy_HVZE1hHEA6Kfwkn2KY7Cv7HJY-VcsUVqX0ZLlU2Q&usqp=CAU&ec=48665698')
+                    p  Sign Up Now! Utilize Free Templates To Create Landing Pages Designed to Increase Conversions. Free Trial. Campaign Manager. A/B Testing & Surveys. Sign Up For Free.  Search for Creating Website 
+                div#item3.cont
+                    img(src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC49kFlU-LRNcRPNzX6vDeuSwIswixnSMPKJAuUxRAXnnsLvpSnPcmbEF79nywt3bE-LWuYBCS8QY&usqp=CAU&ec=48665698')
+                    p  Sign Up Now! Utilize Free Templates To Create Landing Pages Designed to Increase Conversions. Free Trial. Campaign Manager. A/B Testing & Surveys. Sign Up For Free.  Search for Creating Website 
+        section#about
+            h2 About Dance Details
+            div.aboutcont
+                div.box#left
+                    img(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrYsqNtwG2dRP6KurmFjvzkxALpCCnwwCith0Z7x0kng&usqp=CAU&ec=48665698")
+                div.box#right
+                    h3 More About Dance
+                    p  Dance - The movement of the body in a rhythmic way, usually to music and within a given space, for the purpose of expressing an idea or emotion, releasing energy, or 
+                    simply taking delight in the movement itself.
+                    p Dancing is an art that refers to the movements of body parts and especially to rhythmic and to music. Dancing is taken as a form of nonverbal communication that is used to express emotions, ideas or tell a story. Dances are social, participatory or performed for an audience. The words "dance" and "dancing" come from an old German word "danson," which means "to stretch." All dancing is made up of stretching and relaxing. The muscles are tensed for leaping and then relaxed as we make what we hope will be a gentle and graceful landing.Dancing is an art that refers to the movements of body parts and especially to rhythmic and to music. Dancing is taken as a form of nonverbal communication
+
+                    p Thank You
+
+        form(role='form' method='POST' id="form" action='/')
+            h3 Apply in Academy
+            div.form-group
+              input#name.form-control(type='text', placeholder='enter your name' name='name')
+            div.form-group
+              input#email.form-control(type='email', placeholder='enter your email' name='email')
+            div.form-group
+              input#password.form-control(type='password', placeholder='enter your password' name='password')
+            div.form-group
+              input#age.form-control(type='age', placeholder='enter your age' name='age')
+
+            button.btn.btn-primary(type="submit", name="asdf") Submit    
+
+        section#secthird
+            h3 Our Social Media
+            div.socialmedia 
+                div.social#one
+                    a(href='https://teligram.com/')
+                       img(src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS6pikLqILLhd7P9kmKO7VPRY93276tAy8cqHbQ49xIA&usqp=CAU&ec=48665698')
+                div.social#two
+                    a(href='https://www.facebook.com/')
+                        img(src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlDXVn57G5mEQFZ-hIyckTy97UKSK48miloayghunW1Q&usqp=CAU&ec=48665698')
+                div.social#three
+                    a(href='https://www.instagram.com/')
+                        img(src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbVU1fL1qegjj9JCJyhjJqI6RqI762CW48f4fK0haqZA&usqp=CAU&ec=48665698')
+                div.social#four
+                    a(href='https://www.twitter.com/')
+                        img(src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWjaIsQHX3VOG_-XIJyS-sMrR_t33QP2PjZKuoNr32HQ&usqp=CAU&ec=48665698')    
+                div.social#four
+                    a(href='https://www.whatsapp.com/')
+                        img(src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyeEv9uc4MkM_B--ZBw_5kvjOgxH6mDjjgH46KjPT7Gw&usqp=CAU&ec=48665698')
+         
+
+        footer#footer 
+           | Copyright © 2023 DishankRastogi #dishankrastogi878@gmail.com | All Rights Reserved
+    
+        script 
+            include ../static/index.js

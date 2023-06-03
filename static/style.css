@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: red;
+    font-family: 'EB Garamond', serif;
+}
+#navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(102, 21, 21);
+
+}
+#navbar ul{
+    display: flex;
+
+}
+#navbar li{
+    list-style: none;
+    padding: 9px 12px;
+    color: white;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+#secfirst{
+    padding: 16px 32px;
+    text-align: center;
+    font-weight: normal;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg") ;
+    height: 280px;
+    opacity: 0.8;
+}
+h2{
+    font-family: 'EB Garamond', serif;
+    margin-top: 4px;
+    padding-bottom: 32px;
+    font-size: 2rem;
+    color: rgb(253, 253, 253);
+
+}
+
+#secsecond{
+padding: 26px 0px;
+}
+#secsecond h3{
+    font-size: 2.4rem;
+    color:black;
+    text-shadow: 3px 2px 3px rgb(176, 163, 161);
+    margin: 14px auto;
+    text-align: center;
+    font-weight: normal;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+.cont{
+    width: 100%;
+    padding: 18px 12px;
+    margin: 0px 5px;
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid rgb(111, 107, 107);
+}
+.cont p{
+    width: 55%;
+    font-weight: 300;
+    color: rgb(68, 61, 61);
+}
+.cont img{
+    width: 45%;
+    height: 160px;
+}
+#secthird{
+    border-top: 2px solid #dedada;
+}
+#secthird h3{
+    font-size: 2rem;
+    margin: 14px auto;
+    text-align: center;
+    padding-top: 14px;
+    font-weight: normal;
+}
+.socialmedia{
+    display: flex;
+    width: 750px;
+    margin: 0px auto;
+}
+.social{
+    width: 100%;
+    padding: 18px 12px;
+    margin: 0px 5px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.social img{
+    height: 82px;
+    width: 82px;
+}
+
+#about h2{
+    color: black;
+    text-shadow: 3px 2px 3px rgb(176, 163, 161);
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 18px;
+    margin: 0px;
+}
+.aboutcont{
+padding: 16px 16px;
+display: flex;
+justify-content: space-between;
+}
+.box{
+    height: 400px;
+    width: 100%;
+}
+#left{
+    box-shadow: 3px 0px 6px rgb(91, 73, 70);
+    width: 40%;
+}
+#left img{
+    height: 400px;
+    width: 100%;
+}
+#right{
+    color: rgb(95, 88, 88);
+    padding-left: 34px;
+    padding-right: 16px;
+    width: 60%;
+}
+#right h3{
+    font-size: 24px;
+    color: black;
+    padding: 8px 0px;
+}
+
+
+
+#form{
+    padding: 18px 0px;
+    text-align: center;
+}
+#form h3{
+    font-size: 2rem;
+    margin: 14px auto;
+    font-weight: normal;
+}
+.form-group{
+    width: 60%;
+    margin: 22px auto;
+}
+.form-group input{
+    width: 100%;
+    padding: 4px 5px;
+}
+.btn {
+    background-color: rgb(102, 21, 21);
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 7px;
+    margin: 8px auto;
+    font-weight: normal;
+  }
+  #footer{
+    background-color: black;
+    height: 60px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
